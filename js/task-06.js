@@ -12,5 +12,5 @@ function onBlur(txt) {
   } else {
     inputNew.classList.remove("valid");
     inputNew.classList.add("invalid");
-  }
-}
+  };
+};

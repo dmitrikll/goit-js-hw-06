@@ -15,15 +15,14 @@ const images = [
 
 
 const galleryListElement = document.querySelector("ul");
-const element = images
+const galleryMarkup = images
   .map(function ({ url, alt }) {
-    return `<li><img src = '${url}' alt = '${alt}' width="240"></li>`;
+    return `<li><img src = '${url}' alt = '${alt}' width="320"></li>`;
   })
   .join("");
-galleryListElement.insertAdjacentHTML("afterbegin", element); 
+galleryListElement.insertAdjacentHTML("afterbegin", galleryMarkup); 
 
 document.body.style.margin = '0px';
-
 
 galleryListElement.style.cssText = 
   `

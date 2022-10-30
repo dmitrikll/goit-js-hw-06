@@ -1,5 +1,7 @@
 const userForm = document.querySelector(".login-form");
 
+userForm.addEventListener("submit", checkSubmit);
+
 function checkSubmit(event) {
   event.preventDefault();
 
@@ -9,11 +11,9 @@ function checkSubmit(event) {
 
   if (email.value === "" || password.value === "") {
     return alert("Please enter your Email and Password");
-  }
+  };
 
   const result = { email: email.value, password: password.value };
   console.log(result);
   event.currentTarget.reset();
-}
-
-userForm.addEventListener("submit", checkSubmit);
+};
