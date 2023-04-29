@@ -57,17 +57,9 @@ HTML містить список категорій `ul#categories`.
 
 В результаті, в консолі будуть виведені наступні повідомлення:
 
-```css
-Number of categories: 3
-
-Category: Animals
-Elements: 4
-
-Category: Products
-Elements: 3
-
-Category: Technologies
-Elements: 5
+```html
+Number of categories: 3 Category: Animals Elements: 4 Category: Products Elements: 3 Category:
+Technologies Elements: 5
 ```
 
 ### TASK #2
